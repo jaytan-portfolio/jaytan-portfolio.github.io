@@ -376,14 +376,14 @@ footer {
     }
 
 }
-.logo,
-.logo:visited,
-.logo:active {
-    color: #ffffff;
+nav .logo,
+nav .logo:visited,
+nav .logo:active,
+nav .logo:link {
+    color: #ffffff !important;
     text-decoration: none;
 }
 
-.logo:hover {
-    color: #00c6ff; /* optional hover effect */
+nav .logo:hover {
+    color: #00c6ff !important;
 }
-
